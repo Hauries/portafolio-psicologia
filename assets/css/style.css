@@ -62,3 +62,8 @@ body {
   .fa-brands.fa-facebook {
     color: #2f55a4;
   }
+
+  .fa-brands.fa-whatsapp {
+    color:#fff;
+    background: linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 58%,transparent 0);
+  }
