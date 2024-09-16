@@ -119,6 +119,7 @@ nav{
     height: auto;
     margin-right: 10px;
     vertical-align: middle;
+    padding-bottom: 14px;
 
 }
 
@@ -344,6 +345,7 @@ nav{
         .nav__btns{
             display:flex;
             flex: 1;
+            padding-bottom: 15px;
         }
 
 
@@ -413,4 +415,37 @@ nav{
   .fa-brands.fa-whatsapp {
     color:#fff;
     background: linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 58%,transparent 0);
+  }
+  @media (max-width: 768px) {
+    .header__content h1 {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+  
+    .header__content p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    .header__image img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .header__content h1 {
+      font-size: 4rem;
+      line-height: 4.5rem;
+    }
+  
+    .header__content p {
+      font-size: 1.2rem;
+    }
+  
+    .header__image img {
+      max-width: 400px;
+      height: auto;
+    }
   }
